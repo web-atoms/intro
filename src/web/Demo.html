@@ -1,0 +1,10 @@
+<script>
+    import DemoViewModel from "./DemoViewModel";
+    import DemoStyle from "./styles/DemoStyle";
+</script>
+<div
+    default-style="{ DemoStyle }"
+    view-model="{ this.resolve(DemoViewModel) }"
+    style-class="{ this.controlStyle.root }">
+    <span text="{ $viewModel.message }"></span>
+</div>

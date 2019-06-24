@@ -1,0 +1,32 @@
+{
+  "name": "@web-atoms/intro",
+  "version": "1.0.1",
+  "description": "Samples Repository for Web Atoms Core Samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-atoms/intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-atoms/intro/issues"
+  },
+  "homepage": "https://github.com/web-atoms/intro#readme",
+  "bundleDependencies": [
+    "@web-atoms/web-controls",
+    "@web-atoms/xf-controls",
+    "web-atoms-core"
+  ],
+  "dependencies": {
+    "@web-atoms/web-controls": "^1.0.24",
+    "@web-atoms/xf-controls": "^1.0.31",
+    "reflect-metadata": "^0.1.13",
+    "web-atoms-amd-loader": "^1.0.231",
+    "web-atoms-core": "^1.0.691"
+  }
+}
