@@ -23,10 +23,8 @@
         },
         {
             "label": "Http Server",
-            "command": "http-server",
-            "args": [
-            ],
-            "problemMatcher": []
+            "type": "shell",
+            "command": "http-server"
         }
     ]
 }
