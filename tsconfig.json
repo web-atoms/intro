@@ -1,14 +1,17 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "module":"umd",
+        "incremental": true,
         "sourceMap": true,
-        "declaration": true,
+        "removeComments": true,
         "moduleResolution": "node",
         "outDir": "dist",
         "downlevelIteration": false,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "jsx": "react",
+        "jsxFactory": "XNode.create",
         "lib": [
             "es6",
             "dom"
@@ -18,7 +21,8 @@
         "src/**/*"
     ],
     "exclude": [
-		"node_modules",
-		"tests"
+        "node_modules",
+        "node_modules/**/*",
+        "tests"
     ]
 }
