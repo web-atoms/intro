@@ -10,7 +10,7 @@ export default class AppIndex extends MobileApp {
 
     public async init() {
 
-        (this.app as WebApp).installStyleSheet("/node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css");
+        (this.app as WebApp).installStyleSheet("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 
         this.drawer = AppMenu;
 
