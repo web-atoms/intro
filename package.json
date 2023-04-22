@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "postversion": "git push --follow-tags",
-    "start": "node ./run.js"
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
