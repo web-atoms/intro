@@ -39,6 +39,6 @@
     "typescript": "^5.0.4"
   },
   "stackblitz": {
-    "startCommand": "install,build,serve"
+    "startCommand": "build,serve"
   }
 }
