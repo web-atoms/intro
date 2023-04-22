@@ -15,5 +15,15 @@
         "templated",
         "transpiled"
     ],
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "emmet.showExpandedAbbreviation": "never",
+    "editor.bracketPairColorization.enabled": true,
+    "emmet.showSuggestionsAsSnippets": false,
+	"emmet.showAbbreviationSuggestions": false,
+	"emmet.excludeLanguages": [
+		"markdown",
+		"typescript",
+		"typescriptreact"
+	]
+
 }
