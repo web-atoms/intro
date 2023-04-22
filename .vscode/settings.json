@@ -14,5 +14,6 @@
         "readonly",
         "templated",
         "transpiled"
-    ]
+    ],
+    "files.autoSave": "afterDelay"
 }
