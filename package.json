@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "postversion": "git push --follow-tags",
-    "serve": "echo \"Starting Terminal\""
+    "start": "node ./node_modules/@web-atoms/typescript-and-http-server"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,6 @@
     "tslib": "^2.5.0"
   },
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "typescript": "^5.0.4"
+    "@web-atoms/typescript-and-http-server": "^1.0.4"
   }
 }
