@@ -34,6 +34,6 @@
     "tslib": "^2.5.0"
   },
   "devDependencies": {
-    "@web-atoms/typescript-and-http-server": "^1.0.4"
+    "@web-atoms/typescript-and-http-server": "^1.0.5"
   }
 }
