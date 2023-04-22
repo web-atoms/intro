@@ -39,6 +39,6 @@
     "typescript": "^5.0.4"
   },
   "stackblitz": {
-    "startCommand": "npm run build & npm run serve"
+    "startCommand": "npm run build & && npm run serve"
   }
 }
