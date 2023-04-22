@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "postversion": "git push --follow-tags",
-    "start": "tsc & http-server"
+    "build": "tsc --watch",
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
